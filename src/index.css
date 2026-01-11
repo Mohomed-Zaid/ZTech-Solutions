@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, .theme-gold {
+  --bg: #0b0b0f;
+  --surface: #0f1117;
+  --muted: #a1a1aa;
+  --border: rgba(255, 255, 255, 0.08);
+  --card: rgba(255, 255, 255, 0.04);
+  --brand: #d4af37; /* gold */
+  --brand-foreground: #0b0b0f;
+  --brand-grad-start: #b8860b;
+  --brand-grad-end: #ffd700;
+}
+
+.theme-silver {
+  --bg: #0b0b0f;
+  --surface: #101217;
+  --muted: #b8b8bf;
+  --border: rgba(255, 255, 255, 0.08);
+  --card: rgba(255, 255, 255, 0.04);
+  --brand: #c0c0c0; /* silver */
+  --brand-foreground: #0b0b0f;
+  --brand-grad-start: #a9a9a9;
+  --brand-grad-end: #f5f7fa;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply text-white antialiased;
+  background:
+    radial-gradient(80vw 80vw at 10% -20%, rgba(255, 215, 0, 0.08), transparent 60%),
+    radial-gradient(60vw 60vw at 110% 10%, rgba(192, 192, 192, 0.06), transparent 60%),
+    var(--bg);
+}
+
+.container-responsive {
+  @apply max-w-7xl mx-auto w-full;
+}
+
+.nav-blur {
+  @apply backdrop-blur-md bg-[rgba(255,255,255,0.02)] border-b border-[var(--border)];
+}
+
+.card {
+  @apply bg-[var(--card)] border border-[var(--border)] rounded-2xl backdrop-blur-md;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-full px-6 py-3 font-medium text-[var(--brand-foreground)] shadow-glow;
+  background-image: linear-gradient(135deg, var(--brand-grad-start), var(--brand-grad-end));
+}
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 rounded-full px-6 py-3 border border-[var(--border)] bg-transparent text-white hover:bg-white/5;
+}
+
+.section {
+  @apply container-responsive py-20 md:py-28;
+}
+
+.heading {
+  @apply text-3xl md:text-4xl font-serif tracking-tight;
+}
+
+.subtle {
+  @apply text-muted;
+}
