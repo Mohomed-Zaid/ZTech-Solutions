@@ -26,7 +26,7 @@ export default function Navbar() {
       <nav className="container-responsive flex items-center justify-between py-4">
         <a href="#top" className="flex items-center gap-3">
           <img
-            src="/Logo.png"
+            src="/logo.png"
             alt="ZTech Solutions logo"
             className="h-9 w-9 rounded-md object-contain"
           />

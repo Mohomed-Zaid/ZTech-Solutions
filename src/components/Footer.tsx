@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="mt-10 border-t border-[var(--border)]">
       <div className="container-responsive flex flex-col items-center justify-between gap-6 py-8 text-sm text-muted md:flex-row">
         <div className="flex items-center gap-3">
-          <img src="/Logo.png" alt="logo" className="h-6 w-6 rounded object-contain" />
+          <img src="/logo.png" alt="logo" className="h-6 w-6 rounded object-contain" />
           <span>© {year} ZTech Solutions. All rights reserved.</span>
         </div>
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-6">

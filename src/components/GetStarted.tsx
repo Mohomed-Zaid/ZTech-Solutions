@@ -5,7 +5,7 @@ export default function GetStarted() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: 'url(/ZTech%20Solutions.jpg)',
+            backgroundImage: 'url(/ZTech%20Solutions.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
