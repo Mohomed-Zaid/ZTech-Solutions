@@ -1,39 +1,33 @@
 export default function About() {
   return (
     <section id="about" className="section">
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="mb-10 text-center">
+        <h2 className="heading">About Us</h2>
+        <p className="mt-2 text-sm text-muted uppercase tracking-[0.22em]">What do we do</p>
+      </div>
+
+      <div className="max-w-3xl mx-auto space-y-4">
         <div className="space-y-4">
-          <h2 className="heading">Startup. Premium. Proven.</h2>
+          <h3 className="text-lg font-medium">We are ZTech Solutions</h3>
           <p className="text-muted">
-            We are a startup delivering premium software with an obsession for quality and detail. So far, we’ve
-            delivered <span className="text-white">10+ projects</span> with a <span className="text-white">100% success rate</span>—
-            partnering closely with clients to understand goals and ship outcomes that scale.
+            We help businesses grow and expand by delivering refined, premium digital solutions for simple and
+            convenient operations. From business websites to custom applications, we focus on moving your business to
+            the next level.
           </p>
+
+          <div className="flex items-center gap-6 pt-2 text-sm">
+            <span className="text-[var(--brand)]">Our advantages</span>
+            <span className="text-muted">|</span>
+            <span className="text-muted">Our guarantees</span>
+          </div>
+
           <p className="text-muted">
-            Our approach blends modern engineering with refined design. The result: elegant, high‑performance products
-            that feel effortless to use.
+            You might be able to receive all your business solutions in one place. We advise your company on how to
+            stay up with the newest trends and approaches in order to compete in the market.
           </p>
-          <p className="text-muted">
-            Behind every delivery is an experienced team of engineers and designers—bringing production‑ready
-            practices, clear communication, and meticulous attention to detail to every project.
-          </p>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2">
-          <div className="card p-6">
-            <div className="text-3xl font-serif">10+</div>
-            <div className="text-sm text-muted">Projects delivered</div>
-          </div>
-          <div className="card p-6">
-            <div className="text-3xl font-serif">100%</div>
-            <div className="text-sm text-muted">Success rate to date</div>
-          </div>
-          <div className="card p-6">
-            <div className="text-3xl font-serif">Premium</div>
-            <div className="text-sm text-muted">Service & support</div>
-          </div>
-          <div className="card p-6">
-            <div className="text-3xl font-serif">End‑to‑end</div>
-            <div className="text-sm text-muted">From idea to deployment</div>
+
+          <div className="pt-4">
+            <a href="#services" className="btn-primary">Learn more</a>
           </div>
         </div>
       </div>

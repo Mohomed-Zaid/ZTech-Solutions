@@ -134,6 +134,18 @@ export default function Contact() {
             <a href={`mailto:${contactEmail}`} className="text-lg">{contactEmail}</a>
           </div>
           <div className="card p-6">
+            <div className="text-sm text-muted">WhatsApp / Call</div>
+            <a
+              href="https://wa.me/94788531318"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg hover:text-[var(--brand)] transition"
+            >
+              +94 788531318
+            </a>
+            <div className="mt-1 text-xs text-muted">or call</div>
+          </div>
+          <div className="card p-6">
             <div className="text-sm text-muted">Working hours</div>
             <div className="text-lg">Mon–Fri, 9:00–18:00</div>
           </div>

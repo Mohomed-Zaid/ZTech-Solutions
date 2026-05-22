@@ -6,6 +6,10 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import SuccessBand from './components/SuccessBand'
 import CaseStudies from './components/CaseStudies'
+import Pricing from './components/Pricing'
+import GetStarted from './components/GetStarted'
+import WhatsAppFloat from './components/WhatsAppFloat'
+import Testimonials from './components/Testimonials'
 
 function App() {
   return (
@@ -16,10 +20,14 @@ function App() {
         <SuccessBand />
         <CaseStudies />
         <Services />
+        <Pricing />
+        <Testimonials />
         <About />
+        <GetStarted />
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </>
   )
 }

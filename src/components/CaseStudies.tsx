@@ -27,6 +27,20 @@ const cases: Case[] = [
       'Inventory tracking with barcode support, low‑stock alerts, and simple reporting.',
     outcome: 'Better stock visibility; fewer stockouts; faster daily checks',
   },
+  {
+    title: 'Shayan Kids Care — Wholesale Management System',
+    industry: 'Wholesale & Retail',
+    summary:
+      'Full ERP-style platform managing inventory, sales, financial tracking, credit control, supplier management, and accounting with double-entry bookkeeping.',
+    outcome: 'Centralized business operations, eliminated manual invoice handling, improved stock tracking, and complete financial visibility',
+  },
+  {
+    title: 'Gelioya Motors — Business Manager',
+    industry: 'Automotive',
+    summary:
+      'Web-based inventory and financial management system for vehicle parts business with sales, purchases, cash flow, receivables, payables, and profit/loss tracking.',
+    outcome: 'Complete financial visibility, automated invoice generation, and real-time dashboard metrics for business decision-making',
+  },
 ]
 
 export default function CaseStudies() {

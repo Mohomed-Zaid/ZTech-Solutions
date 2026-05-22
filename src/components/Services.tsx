@@ -13,29 +13,32 @@ const categories = [
   },
   {
     icon: Code2,
-    title: 'Custom Web Applications',
+    title: 'Business Management Systems',
     items: [
-      'Booking and appointment systems',
-      'Customer management systems',
-      'Admin dashboards',
-    ],
-  },
-  {
-    icon: Sparkles,
-    title: 'Frontend Application Development',
-    items: [
-      'React + TypeScript interfaces',
-      'Performance‑focused UI',
-      'Accessibility‑aware layouts',
+      'Inventory management systems',
+      'Wholesale management platforms',
+      'Sales and invoice management',
+      'Customer and vendor tracking',
     ],
   },
   {
     icon: LineChart,
-    title: 'System Automation',
+    title: 'Financial Management Systems',
     items: [
-      'Manual process automation',
-      'Data entry',
-      'File‑based systems converted to digital',
+      'Receivables and payables tracking',
+      'Cash flow management',
+      'Profit/loss reporting',
+      'Accounting and journal entries',
+    ],
+  },
+  {
+    icon: Sparkles,
+    title: 'Custom ERP Solutions',
+    items: [
+      'End‑to‑end business automation',
+      'Multi‑module integration',
+      'Audit trail and reporting',
+      'Backup and restore systems',
     ],
   },
   {

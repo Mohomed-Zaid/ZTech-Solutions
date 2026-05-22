@@ -27,11 +27,13 @@ export default function Hero() {
         </div>
         <div className="relative">
           <div className="card p-1">
-            <img
-              src="/logo.png"
-              alt="ZTech Solutions brand"
-              className="w-full rounded-2xl border border-[var(--border)] object-cover"
-            />
+            <div className="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-[var(--border)]">
+              <img
+                src="/ZTech%20Solutions.png"
+                alt="ZTech Solutions banner"
+                className="h-full w-full object-cover"
+              />
+            </div>
           </div>
           <div className="pointer-events-none absolute -top-8 -right-8 h-40 w-40 rounded-full opacity-40 blur-2xl" style={{
             background: 'radial-gradient(closest-side, var(--brand), transparent)'
